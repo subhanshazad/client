@@ -48,9 +48,20 @@
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
+
+                    <div id="google_translate_element"></div>
+
+                    <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="../client/login.php">Login</a>
                 </div>
             </nav>
         </div>
     </div>
 </div>
+
+<script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+    }
+</script>
