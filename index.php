@@ -26,103 +26,19 @@
 </head>
 
 <body>
+
     <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
-        <div class="row align-items-center py-4 px-xl-5">
-            <div class="col-lg-3">
-                <a href="" class="text-decoration-none">
-                    <h1 class="m-0"><span class="text-primary">E</span>COURSES</h1>
-                </a>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Our Office</h6>
-                        <small>123 Street, New York, USA</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
-                        <small>info@example.com</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
-                        <small>+012 345 6789</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include 'assets/topbar.php';
+    ?>
+
     <!-- Topbar End -->
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid">
-        <div class="row border-top px-xl-5">
-            <div class="col-lg-3 d-none d-lg-block">
-                <a class="d-flex align-items-center justify-content-between bg-secondary w-100 text-decoration-none"
-                    data-toggle="collapse" href="#navbar-vertical" style="height: 67px; padding: 0 30px;">
-                    <h5 class="text-primary m-0"><i class="fa fa-book-open mr-2"></i>Subjects</h5>
-                    <i class="fa fa-angle-down text-primary"></i>
-                </a>
-                <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light"
-                    id="navbar-vertical" style="width: calc(100% - 30px); z-index: 9;">
-                    <div class="navbar-nav w-100">
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-toggle="dropdown">Web Design <i
-                                    class="fa fa-angle-down float-right mt-1"></i></a>
-                            <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
-                                <a href="" class="dropdown-item">HTML</a>
-                                <a href="" class="dropdown-item">CSS</a>
-                                <a href="" class="dropdown-item">jQuery</a>
-                            </div>
-                        </div>
-                        <a href="" class="nav-item nav-link">Apps Design</a>
-                        <a href="" class="nav-item nav-link">Marketing</a>
-                        <a href="" class="nav-item nav-link">Research</a>
-                        <a href="" class="nav-item nav-link">SEO</a>
-                    </div>
-                </nav>
-            </div>
-            <div class="col-lg-9">
-                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                    <a href="" class="text-decoration-none d-block d-lg-none">
-                        <h1 class="m-0"><span class="text-primary">E</span>COURSES</h1>
-                    </a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav py-0">
-                            <a href="index.php" class="nav-item nav-link active">Home</a>
-                            <a href="about.php" class="nav-item nav-link">About</a>
-                            <a href="course.php" class="nav-item nav-link">Courses</a>
-                            <a href="teacher.php" class="nav-item nav-link">Teachers</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
-                                <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="blog.php" class="dropdown-item">Blog List</a>
-                                    <a href="single.php" class="dropdown-item">Blog Detail</a>
-                                </div>
-                            </div>
-                            <a href="contact.php" class="nav-item nav-link">Contact</a>
-                        </div>
-                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
+    <?php
+    include 'assets/header.php';
+    ?>
     <!-- Navbar End -->
 
 
@@ -142,7 +58,8 @@
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
                             <h1 class="display-3 text-white mb-md-4">Best Education From Your Home</h1>
-                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn
+                                More</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +70,8 @@
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
                             <h1 class="display-3 text-white mb-md-4">Best Online Learning Platform</h1>
-                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn
+                                More</a>
                         </div>
                     </div>
                 </div>
@@ -164,7 +82,8 @@
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
                             <h1 class="display-3 text-white mb-md-4">New Way To Learn From Home</h1>
-                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn
+                                More</a>
                         </div>
                     </div>
                 </div>
@@ -186,11 +105,15 @@
                         <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
                         <h1>Innovative Way To Learn</h1>
                     </div>
-                    <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo
-                        dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus
-                        gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor
+                    <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua
+                        duo
+                        dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam
+                        sanctus
+                        gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit
+                        dolor
                         clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea
-                        labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores
+                        labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr
+                        dolores
                         justo aliquyam ipsum stet</p>
                     <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
                 </div>
@@ -305,7 +228,8 @@
                             <a class="h5" href="">Web design & development courses for beginner</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5
+                                        <small>(250)</small>
                                     </h6>
                                     <h5 class="m-0">$99</h5>
                                 </div>
@@ -324,7 +248,8 @@
                             <a class="h5" href="">Web design & development courses for beginner</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5
+                                        <small>(250)</small>
                                     </h6>
                                     <h5 class="m-0">$99</h5>
                                 </div>
@@ -343,7 +268,8 @@
                             <a class="h5" href="">Web design & development courses for beginner</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5
+                                        <small>(250)</small>
                                     </h6>
                                     <h5 class="m-0">$99</h5>
                                 </div>
@@ -362,7 +288,8 @@
                             <a class="h5" href="">Web design & development courses for beginner</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5
+                                        <small>(250)</small>
                                     </h6>
                                     <h5 class="m-0">$99</h5>
                                 </div>
@@ -381,7 +308,8 @@
                             <a class="h5" href="">Web design & development courses for beginner</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5
+                                        <small>(250)</small>
                                     </h6>
                                     <h5 class="m-0">$99</h5>
                                 </div>
@@ -400,7 +328,8 @@
                             <a class="h5" href="">Web design & development courses for beginner</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small>
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5
+                                        <small>(250)</small>
                                     </h6>
                                     <h5 class="m-0">$99</h5>
                                 </div>
@@ -420,18 +349,24 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <div class="mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Need Any Courses</h5>
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Need Any Courses
+                        </h5>
                         <h1 class="text-white">30% Off For New Students</h1>
                     </div>
-                    <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem
+                    <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor
+                        lorem
                         ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
+                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum
+                        est
                         dolor</p>
                     <ul class="list-inline text-white m-0">
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet
+                            diam
                         </li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum
+                        </li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum
+                            vero.
                         </li>
                     </ul>
                 </div>
@@ -574,8 +509,10 @@
                     <div class="owl-carousel testimonial-carousel">
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
-                                Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet
+                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est
+                                eos.
+                                Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                                amet
                                 eirmod eos labore diam</h4>
                             <img class="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt="">
                             <h5 class="m-0">Client Name</h5>
@@ -583,8 +520,10 @@
                         </div>
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
-                                Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet
+                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est
+                                eos.
+                                Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                                amet
                                 eirmod eos labore diam</h4>
                             <img class="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt="">
                             <h5 class="m-0">Client Name</h5>
@@ -592,8 +531,10 @@
                         </div>
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
-                                Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet
+                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est
+                                eos.
+                                Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                                amet
                                 eirmod eos labore diam</h4>
                             <img class="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt="">
                             <h5 class="m-0">Client Name</h5>
@@ -674,7 +615,8 @@
                         <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Courses</h5>
                         <div class="d-flex flex-column justify-content-start">
                             <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Apps Design</a>
+                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Apps
+                                Design</a>
                             <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
                             <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Research</a>
                             <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a>
@@ -684,7 +626,8 @@
             </div>
             <div class="col-lg-5 col-md-12 mb-5">
                 <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Newsletter</h5>
-                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu
+                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor.
+                    Accu
                     kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
                 <div class="w-100">
                     <div class="input-group">
