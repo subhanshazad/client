@@ -32,6 +32,13 @@
             background-position: center;
             position: relative;
         }
+
+        .card-body {
+            background-color: rgba(255, 255, 255, 0.5);
+            /* Transparent white background */
+            backdrop-filter: blur(10px);
+            /* Blur effect */
+        }
     </style>
 </head>
 
@@ -54,7 +61,7 @@
 
 
     <!-- Login 6 - Bootstrap Brain Component -->
-    <section class="bg-primary p-3 p-md-4 p-xl-5">
+    <section class="p-3 p-md-4 p-xl-5">
         <div
             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6);">
         </div>
@@ -67,6 +74,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="mb-5">
+                                        <h3>Sign up</h3>
                                     </div>
                                 </div>
                             </div>
@@ -74,11 +82,37 @@
                                 <div class="row gy-3 overflow-hidden">
                                     <div class="col-12">
                                         <div class="form-floating mb-3">
+                                            <input type="name" class="form-control" name="firstname" id="firstname"
+                                                placeholder="Name" required>
+                                            <label for="firstname" class="form-label">First Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating mb-3">
+                                            <input type="name" class="form-control" name="lastname" id="lastname"
+                                                placeholder="Lastname" required>
+                                            <label for="lastname" class="form-label">Last Name</label>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-12">
+                                        <div class="form-floating mb-3">
                                             <input type="email" class="form-control" name="email" id="email"
                                                 placeholder="name@example.com" required>
                                             <label for="email" class="form-label">Email</label>
                                         </div>
                                     </div>
+
+                                    <div class="col-12">
+                                        <div class="form-floating mb-3">
+                                            <input type="tel" class="form-control" name="phone" id="phone"
+                                                placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                                required>
+                                            <label for="phone" class="form-label">Phone Number</label>
+                                        </div>
+                                    </div>
+
                                     <div class="col-12">
                                         <div class="form-floating mb-3">
                                             <input type="password" class="form-control" name="password" id="password"
@@ -87,12 +121,20 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
+                                        <div class="form-floating mb-3">
+                                            <input type="password" class="form-control" name="password" id="password"
+                                                value="" placeholder="Password" required>
+                                            <label for="password" class="form-label">Confirm Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" value="" name="remember_me"
                                                 id="remember_me">
-                                            <label class="form-check-label text-secondary" for="remember_me">
+                                            <label class="form-check-label " for="remember_me" style="color: blue;">
                                                 Keep me logged in
                                             </label>
+
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -107,8 +149,21 @@
                                 <div class="col-12">
                                     <hr class="mt-5 mb-4 border-secondary-subtle">
                                     <div class="d-flex gap-2 gap-md-4 flex-column flex-md-row justify-content-md-end">
-                                        <a href="#!" class="link-secondary text-decoration-none">Create new account</a>
-                                        <a href="#!" class="link-secondary text-decoration-none">Forgot password</a>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            Already have an account?&nbsp;<a href="login.php" style="color: green;">Log
+                                                in</a>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center mt-md-0 mt-2">
+                                            <a href="#!" class="link-secondary text-decoration-none">Forgot password</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-12">
+                                    <hr class="mt-5 mb-4 border-secondary-subtle">
+                                    <div class="d-flex gap-2 gap-md-4 flex-column flex-md-row justify-content-md-end">
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +179,8 @@
                                             </svg>
                                             <span class="ms-2 fs-6 text-uppercase">Sign in With Google</span>
                                         </a>
-                                        <a href="#!" class="btn bsb-btn-xl btn-primary">
+                                        <a href="#!" class="btn bsb-btn-xl"
+                                            style="background-color:#2750eb; color:white;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                                                 <path
@@ -132,14 +188,7 @@
                                             </svg>
                                             <span class="ms-2 fs-6 text-uppercase">Sign in With Facebook</span>
                                         </a>
-                                        <a href="#!" class="btn bsb-btn-xl btn-info">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                                            </svg>
-                                            <span class="ms-2 fs-6 text-uppercase">Sign in With Twitter</span>
-                                        </a>
+
                                     </div>
                                 </div>
                             </div>
