@@ -32,13 +32,6 @@
             background-position: center;
             position: relative;
         }
-
-        .card-body {
-            background-color: rgba(255, 255, 255, 0.5);
-            /* Transparent white background */
-            backdrop-filter: blur(10px);
-            /* Blur effect */
-        }
     </style>
 </head>
 
@@ -61,7 +54,7 @@
 
 
     <!-- Login 6 - Bootstrap Brain Component -->
-    <section class="p-3 p-md-4 p-xl-5">
+    <section class="bg-primary p-3 p-md-4 p-xl-5">
         <div
             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6);">
         </div>
