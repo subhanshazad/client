@@ -3,8 +3,8 @@
         <div class="col-lg-3 d-none d-lg-block">
             <a class="d-flex align-items-center justify-content-between bg-secondary w-100 text-decoration-none"
                 data-toggle="collapse" href="#navbar-vertical" style="height: 67px; padding: 0 30px;">
-                <h5 class="text-primary m-0"><i class="fa fa-book-open mr-2"></i>Subjects</h5>
-                <i class="fa fa-angle-down text-primary"></i>
+                <h5 class="m-0" style="color:#007a51"><i class="fa fa-book-open mr-2"></i>Subjects</h5>
+                <i class="fa fa-angle-down" style="color:#007a51"></i>
             </a>
             <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light"
                 id="navbar-vertical" style="width: calc(100% - 30px); z-index: 9;">
@@ -35,7 +35,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav py-0">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="index.php" class="nav-item nav-link">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="course.php" class="nav-item nav-link">Courses</a>
                         <a href="teacher.php" class="nav-item nav-link">Teachers</a>

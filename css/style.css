@@ -166,13 +166,13 @@ sup {
 }
 
 a {
-  color: #FF6600;
+  color: #fbb040;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #b34700;
+  color: #fbb040;
   text-decoration: underline;
 }
 
@@ -1902,12 +1902,12 @@ pre code {
 }
 
 .table-hover .table-primary:hover {
-  background-color: #ffc59f;
+  background-color: #fbb040;
 }
 
 .table-hover .table-primary:hover>td,
 .table-hover .table-primary:hover>th {
-  background-color: #ffc59f;
+  background-color: #fbb040;
 }
 
 .table-secondary,
@@ -2215,7 +2215,7 @@ pre code {
   background-color: #fff;
   border-color: #ffb380;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem #007a51;
 }
 
 .form-control::placeholder {
@@ -2697,7 +2697,7 @@ textarea.form-control.is-invalid {
 .btn:focus,
 .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem #007a51;
 }
 
 .btn.disabled,
@@ -3043,14 +3043,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #FF6600;
-  border-color: #FF6600;
+  color: #fbb040;
+  border-color: #fbb040;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #fbb040;
+  border-color: #fbb040;
 }
 
 .btn-outline-primary:focus,
@@ -3060,7 +3060,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #FF6600;
+  color: #fbb040;
   background-color: transparent;
 }
 
@@ -3068,14 +3068,14 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #fbb040;
+  border-color: #fbb040;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem hsla(24, 100%, 50%, 0.5);
 }
 
 .btn-outline-secondary {
@@ -4007,8 +4007,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked~.custom-control-label::before {
   color: #fff;
-  border-color: #FF6600;
-  background-color: #FF6600;
+  border-color: #fbb040;
+  background-color: #fbb040;
 }
 
 .custom-control-input:focus~.custom-control-label::before {
@@ -4155,7 +4155,7 @@ input[type="button"].btn-block {
 }
 
 .custom-select:focus {
-  border-color: #ffb380;
+  border-color: #fbb040;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
 }
@@ -5382,13 +5382,13 @@ a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #FF6600;
+  background-color: #fbb040;
 }
 
 a.badge-primary:hover,
 a.badge-primary:focus {
   color: #fff;
-  background-color: #cc5200;
+  background-color: #fbb040;
 }
 
 a.badge-primary:focus,
@@ -5566,7 +5566,7 @@ a.badge-dark.focus {
 
 .alert-primary {
   color: #853500;
-  background-color: #ffe0cc;
+  background-color: #fbb040;
   border-color: #ffd4b8;
 }
 
@@ -5979,7 +5979,7 @@ a.badge-dark.focus {
 
 .list-group-item-primary.list-group-item-action.active {
   color: #fff;
-  background-color: #853500;
+  background-color: #fbb040;
   border-color: #853500;
 }
 
@@ -6967,14 +6967,14 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FF6600 !important;
+  background-color: #fbb040 !important;
 }
 
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #cc5200 !important;
+  background-color: #fbb040 !important;
 }
 
 .bg-secondary {
@@ -10690,12 +10690,12 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FF6600 !important;
+  color: #fbb040 !important;
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #b34700 !important;
+  color: #007a51 !important;
 }
 
 .text-secondary {
@@ -10965,7 +10965,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #FF6600;
+  color: #007a51;
 }
 
 @media (max-width: 991.98px) {
