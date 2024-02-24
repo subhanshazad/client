@@ -341,8 +341,11 @@
         </div>
     </div>
     <!-- Courses End -->
-
-
+    <center>
+        <div class="form-group mb-0 align-items-center">
+           <a href="course.php"> <input type="submit" value="Get More Courses" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold"></a>
+        </div>
+    </center>
     <!-- Registration Start -->
     <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
         <div class="container py-5">
