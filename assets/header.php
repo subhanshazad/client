@@ -23,6 +23,10 @@
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
+
+
+
+
                         <a href="../client/login.php" class="nav-item nav-link">Get Login</a>
 
 
@@ -48,7 +52,11 @@
 
 
                 </div>
+
+
             </nav>
+
+
         </div>
     </div>
 </div>
