@@ -115,10 +115,10 @@
                                 <p class="text-decoration-none h6 m-0">Course Price</p>
                                 <span class="badge badge-pill"
                                     style="background-color: #fbb040; color: black; font-weight-semi-bold;font-size:20px;">$500
-                                    
+
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                            <input type="submit" value="Buy Now" class="btn btn-primary py-md-2 px-md-4">
+                                <input type="submit" value="Buy Now" class="btn btn-primary py-md-2 px-md-4">
 
                             </li>
                         </ul>

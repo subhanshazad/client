@@ -23,23 +23,30 @@
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="../client/login.php" class="nav-item nav-link">Get Login</a>
+
+
+
+
+
+                        <div class="dropdown">
+                            <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/blog-80x80.jpg" width="50%" style="border-radius:100px;">
+                            </div>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Profile</a>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </div>
+
                     </div>
 
 
-                    <div class="dropdown">
-                        <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            <img src="img/blog-80x80.jpg" width="50%" style="border-radius:100px;">
-                        </div>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Profile</a>
-                            <a class="dropdown-item" href="#">Settings</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Logout</a>
-                        </div>
-                    </div>
 
-                    <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="../client/login.php">Login</a>
+
                 </div>
             </nav>
         </div>
