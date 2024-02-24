@@ -43,12 +43,12 @@
     <!-- Header Start -->
     <div class="container-fluid page-header" style="margin-bottom: 90px;">
         <div class="container">
+
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-                <h3 class="display-4 text-white text-uppercase">Single</h3>
                 <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                    <h3 class="m-0 text-uppercase"><a class="text-white" href="">Home</a></h3>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Single</p>
+                    <h3 class="m-0 text-uppercase">Course name</h3>
                 </div>
             </div>
         </div>
@@ -89,7 +89,9 @@
 
 
                     <div class="mb-5">
-                        <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Course Details</h3>
+                        <h3 class="text-uppercase mb-4" style="letter-spacing: 5px; background-color:#fbb040;">Course
+                            Details
+                        </h3>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item d-flex justify-content-between align-items-center px-0">
                                 <p class="text-decoration-none h6 m-0">Course Category</p>
@@ -110,8 +112,14 @@
                                 <span class="badge badge-pill" style="background-color: #007a51; color: white;">Urdu
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                                <p class="text-decoration-none h6 m-0">Course Duration</p>
-                                <span class="badge badge-pill" style="background-color: #007a51; color: white;">5
+                                <p class="text-decoration-none h6 m-0">Course Price</p>
+                                <span class="badge badge-pill"
+                                    style="background-color: #fbb040; color: black; font-weight-semi-bold;font-size:20px;">$500
+                                    
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <input type="submit" value="Buy Now" class="btn btn-primary py-md-2 px-md-4">
+
                             </li>
                         </ul>
                     </div>
@@ -206,42 +214,26 @@
 
                     <!-- Recent Post -->
                     <div class="mb-5">
-                        <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Recent Post</h3>
-                        <a class="d-flex align-items-center text-decoration-none mb-3" href="">
-                            <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
+                        <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">More Courses</h3>
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href=""
+                            style="background-color:#007a51;">
+                            <img class="img-fluid rounded" src="img/course-1.jpg" width="30%" alt="">
                             <div class="pl-3">
-                                <h6 class="m-1">Diam lorem dolore justo eirmod lorem dolore</h6>
-                                <small>Jan 01, 2050</small>
+                                <h6 class="m-1" style="color:white">Quran in urdu</h6>
                             </div>
                         </a>
-                        <a class="d-flex align-items-center text-decoration-none mb-3" href="">
-                            <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
+
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href=""
+                            style="background-color:#007a51;">
+                            <img class="img-fluid rounded" src="img/course-1.jpg" width="30%" alt="">
                             <div class="pl-3">
-                                <h6 class="m-1">Diam lorem dolore justo eirmod lorem dolore</h6>
-                                <small>Jan 01, 2050</small>
-                            </div>
-                        </a>
-                        <a class="d-flex align-items-center text-decoration-none mb-3" href="">
-                            <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
-                            <div class="pl-3">
-                                <h6 class="m-1">Diam lorem dolore justo eirmod lorem dolore</h6>
-                                <small>Jan 01, 2050</small>
+                                <h6 class="m-1" style="color:white">Quran in urdu</h6>
                             </div>
                         </a>
                     </div>
 
                     <!-- Tag Cloud -->
-                    <div class="mb-5">
-                        <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Tag Cloud</h3>
-                        <div class="d-flex flex-wrap m-n1">
-                            <a href="" class="btn btn-outline-primary m-1">Design</a>
-                            <a href="" class="btn btn-outline-primary m-1">Development</a>
-                            <a href="" class="btn btn-outline-primary m-1">Marketing</a>
-                            <a href="" class="btn btn-outline-primary m-1">SEO</a>
-                            <a href="" class="btn btn-outline-primary m-1">Writing</a>
-                            <a href="" class="btn btn-outline-primary m-1">Consulting</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
