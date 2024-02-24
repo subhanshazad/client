@@ -39,7 +39,7 @@
                                 <img src="img/blog-80x80.jpg" width="50%" style="border-radius:100px;">
                             </div>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Profile</a>
+                                <a class="dropdown-item" href="#">Go to Panel</a>
                                 <a class="dropdown-item" href="#">Settings</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Logout</a>

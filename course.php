@@ -60,7 +60,7 @@
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-5">
-                
+
                 <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Subjects</h5>
                 <h1>Explore Top Subjects</h1>
             </div>
@@ -149,7 +149,7 @@
             <div class="text-center mb-5">
                 <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Courses</h5>
                 <h1>Our Popular Courses</h1>
-                
+
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -238,6 +238,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-e6a8adb2-94a9-4cdb-8c3c-3b3eee284313" data-elfsight-app-lazy></div>
 </body>
 
 </html>

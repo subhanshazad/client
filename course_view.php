@@ -46,9 +46,9 @@
 
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
                 <div class="d-inline-flex text-white">
-                    <h3 class="m-0 text-uppercase"><a class="text-white" href="">Home</a></h3>
+                    <h3 class="m-0 text-uppercase"><a class="text-white" href="index.php">Home</a></h3>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <h3 class="m-0 text-uppercase">Course name</h3>
+                    <h3 class="m-0 text-uppercase text-primary">Course name</h3>
                 </div>
             </div>
         </div>
@@ -62,13 +62,19 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="mb-5">
-                        <h1 class="mb-5">Course Name</h1>
+                        <h1 class="mb-5">Course Name here</h1>
+                        <div style="background-color:#4f4f4f;border-radius:20px;">
+                            <br>
+                            <h3 class="mb-5" style="color:#ffff; border-radius:20px;">
+                                &nbsp;&nbsp;Course
+                                Demo </h3>
+                            <video class="img-fluid rounded w-100 mb-4" width="320" height="240" controls
+                                controlsList="nodownload">
 
-                        <video class="img-fluid rounded w-100 mb-4" width="320" height="240" controls
-                            controlsList="nodownload">
-                            <source src="videos/demo.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                                <source src="videos/demo.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
 
 
                         <h3 class="mb-3" style="color:#007a51;">Description</h3>
@@ -102,6 +108,10 @@
                                 <p class="text-decoration-none h6 m-0">Course Duration</p>
 
                                 <span class="badge badge-pill" style="background-color: #007a51; color: white;">5 HRS
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                <p class="text-decoration-none h6 m-0">Course lectures</p>
+                                <span class="badge badge-pill" style="background-color: #007a51; color: white;">20
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center px-0">
                                 <p class="text-decoration-none h6 m-0">Upload Date</p>
@@ -230,6 +240,13 @@
                                 <h6 class="m-1" style="color:white">Quran in urdu</h6>
                             </div>
                         </a>
+
+
+                        <div class="form-group mb-0 align-items-center">
+                            <a href="course.php"> <input type="submit" value="Get More Courses"
+                                    class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold"></a>
+                        </div>
+
                     </div>
 
                     <!-- Tag Cloud -->
@@ -264,6 +281,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-e6a8adb2-94a9-4cdb-8c3c-3b3eee284313" data-elfsight-app-lazy></div>
 </body>
 
 </html>

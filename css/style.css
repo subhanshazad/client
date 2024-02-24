@@ -10951,9 +10951,13 @@ h6,
   position: fixed;
   display: none;
   right: 30px;
-  bottom: 30px;
+  bottom: 70px;
+  /* Adjusted value to move the button slightly up */
   z-index: 11;
 }
+
+
+
 
 .navbar-light .navbar-nav .nav-link {
   padding: 20px 15px;
@@ -11150,15 +11154,4 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-
-/* Hide the banner */
-.goog-te-banner-frame {
-  display: none !important;
-}
-
-/* Hide the watermark */
-.goog-te-gadget {
-  display: none !important;
 }

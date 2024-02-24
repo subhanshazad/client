@@ -259,7 +259,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/course-3.jpg" alt="">
+                        <img class="img-fluid" src="img/course-4.jpg" alt="">
                         <div class="bg-secondary p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
@@ -339,13 +339,15 @@
                 </div>
             </div>
         </div>
+        <center>
+            <div class="form-group mb-0 align-items-center">
+                <a href="course.php"> <input type="submit" value="Get More Courses"
+                        class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold"></a>
+            </div>
+        </center>
     </div>
     <!-- Courses End -->
-    <center>
-        <div class="form-group mb-0 align-items-center">
-           <a href="course.php"> <input type="submit" value="Get More Courses" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold"></a>
-        </div>
-    </center>
+
     <!-- Registration Start -->
     <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
         <div class="container py-5">
@@ -561,16 +563,6 @@
             <div class="row pb-3">
                 <div class="col-lg-4 mb-4">
                     <div class="blog-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                        <a class="blog-overlay text-decoration-none" href="">
-                            <h5 class="text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita at ut
-                                clita</h5>
-                            <p class="text-primary m-0">Jan 01, 2050</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="blog-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img/blog-2.jpg" alt="">
                         <a class="blog-overlay text-decoration-none" href="">
                             <h5 class="text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita at ut
@@ -621,3 +613,7 @@
 </body>
 
 </html>
+
+
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-e6a8adb2-94a9-4cdb-8c3c-3b3eee284313" data-elfsight-app-lazy></div>

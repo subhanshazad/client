@@ -264,6 +264,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-e6a8adb2-94a9-4cdb-8c3c-3b3eee284313" data-elfsight-app-lazy></div>
 </body>
 
 </html>
