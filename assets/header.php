@@ -23,16 +23,7 @@
                             </div>
                         </div>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
-
-
-
-
                         <a href="../client/login.php" class="nav-item nav-link">Get Login</a>
-
-
-
-
-
                         <div class="dropdown">
                             <div class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,16 +38,10 @@
                         </div>
 
                     </div>
-
-
-
-
-                </div>
-
-
+                    <div class="gtranslate_wrapper"></div>
+                    <script>window.gtranslateSettings = { "default_language": "en", "native_language_names": true, "detect_browser_language": true, "languages": ["en", "ur", "hi", "zh-TW", "ja", "ru", "uk", "tr", "fa", "ps", "ne", "bn", "pt", "it", "pa", "ms", "de", "id", "yo"], "wrapper_selector": ".gtranslate_wrapper", "flag_size": 24 }</script>
+                    <script src="https://cdn.gtranslate.net/widgets/latest/popup.js" defer></script>
             </nav>
-
-
         </div>
     </div>
 </div>

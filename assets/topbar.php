@@ -1,4 +1,3 @@
-<div id="google_translate_element"></div>
 <div class="container-fluid d-none d-lg-block">
     <div class="row align-items-center py-4 px-xl-5">
         <div class="col-lg-3">
@@ -35,12 +34,3 @@
         </div>
     </div>
 </div>
-
-
-<script type="text/javascript"
-    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<script type="text/javascript">
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-    }
-</script>
